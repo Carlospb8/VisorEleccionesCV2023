@@ -14,12 +14,12 @@
             color: #1f2d3d;
         }
         .container {
-            margin-top: 80px;
+            margin-top: 60px;
         }
         .boton {
             display: inline-block;
-            margin: 20px;
-            padding: 18px 40px;
+            margin: 15px;
+            padding: 16px 35px;
             font-size: 18px;
             background-color: #003366;
             color: white;
@@ -29,6 +29,23 @@
         }
         .boton:hover {
             background-color: #0055aa;
+        }
+        .subcontainer {
+            margin-top: 30px;
+        }
+        .subboton {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            font-size: 16px;
+            background-color: #555;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .subboton:hover {
+            background-color: #777;
         }
     </style>
 </head>
@@ -41,5 +58,17 @@
     <a class="boton" href="MAPA_PARTICIPACION.html">📊 Mapa Participación</a>
 </div>
 
+<div class="container">
+    <a class="boton">📈 Resultados de partidos con representación</a>
+    
+    <div class="subcontainer">
+        <a class="subboton" href="MAPA_PP.html">🔵 PP</a>
+        <a class="subboton" href="MAPA_PSOE.html">🔴 PSOE</a>
+        <a class="subboton" href="MAPA_COMPROMIS.html">🟠 Compromís</a>
+        <a class="subboton" href="MAPA_VOX.html">🟢 VOX</a>
+    </div>
+</div>
+
 </body>
 </html>
+
